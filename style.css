@@ -1,0 +1,1025 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.8em;
+    overflow-x: hidden;
+    /* color: #666; */
+}
+
+.head-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plant-img{
+    height: 130px;
+    width: 150px;
+}
+
+.head-section h3{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.head-section div{
+    width:160px
+}
+
+.login-section a{
+    border-radius: 10px;
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    padding: 10px;
+}
+
+.login-section a:hover{
+    background-color: black;
+    color: white;
+}
+
+.width-100{
+    width: 100% !important;
+}
+
+.plant-menulist ul li a{
+    display: flex;
+    color: white;
+    font-weight: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.plant-menulist ul li{
+    margin: 0px 40px;
+}
+
+.plant-menulist ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url("./gardenmainimage.jpg");
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url("./garden1.jpg");
+    min-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pimg2 h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+.pimg3{
+    background-image: url("./garden2.jpg");
+    min-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pimg3 h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+.pimg4{
+    background-image: url("./plant leaves.jpg");
+    background-size: cover;
+    background-position: bottom;
+    min-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg4 h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin: 40px;
+}
+
+section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.garden-caption{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.caption-button{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 423px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+}
+
+.caption-button button{
+    width: 105px;
+    background-color: white !important;
+    color: black !important;
+}
+
+.caption-button button:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+.section-service{
+    background-color: whitesmoke;
+}
+
+.sectionservice-options{
+	display:flex;
+justify-content:space-around;
+align-items:center;
+}
+
+.section-service a{
+    color: black;
+    text-decoration: none;
+}
+
+.service:hover{
+    opacity: 0.7;
+}
+
+.fs-12{
+    font-size: 50px;
+}
+
+.card-image{
+    height: 250px !important;
+    border-radius: 25px !important;
+}
+
+.card-content{
+    background-color: lightcyan;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.plants-card{
+    border-radius: 25px !important;
+    border: none !important;
+    width: 18rem;
+    background-color: lightcyan;
+}
+
+.topWeekPlants{
+display:flex;
+justify-content:space-evenly;
+align-items:center;
+width:100%
+}
+
+
+.plants-card:hover{
+    transform: scale(1.1);
+}
+
+.amount-text{
+    color: #ff6b6b !important;
+}
+
+.rating{
+    color: gold;
+}
+
+.buy-button{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.buy-button a{
+    color: black;
+    font-weight: bold;
+}
+
+.buy-button:hover a{
+    background-color: black;
+    color: white;
+}
+
+.plantitems-card{
+    border-radius: 50% 50% 18% 18%!important;
+    border: none !important;
+    background-color: lightcyan !important;
+    width: 18rem;
+}
+
+.plantitemcard-image{
+    height: 250px !important;
+    border-radius: 50% !important;
+}
+
+.trendingWeekPlants{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:100%
+    }
+
+.trendingcategory-link{
+    text-decoration: none;
+    color: black;
+}
+
+.width-300{
+    width: 300px;
+}
+
+.garden-tools{
+    width: 50% !important;
+    margin: 50px 68px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.9;
+    justify-content: start;
+    padding: 42px;
+    border-radius: 10px;
+}
+
+.shopnow-button{
+    width: 100px;
+}
+
+.shopnow-button:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+.bg-1{
+    background-image: url("./pots.jpg");
+    background-size: cover;
+}
+
+.bg-2{
+    background-image: url("./fertilizers.jpg");
+    background-size: cover;
+}
+
+.bg-3{
+    background-image: url("./pebbles.jpg");
+    background-size: cover;
+}
+
+.bg-4{
+    background-image: url("./tools.jpg");
+    background-size: cover;
+}
+
+.gardenitems-sale{
+    display:flex;
+}
+    
+footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-section a{
+    text-decoration: none;
+    color: white;
+    margin: 8px 0px;
+}
+
+.garden-links{
+    width: 320px;
+    margin: 28px 24px;
+}
+
+.gardenlinks-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.gardenlinks-div span{
+    margin: 25px 0px;
+    padding: 5px;
+}
+
+.gardenlinks-div span:hover {
+    background-color: black !important;
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+.socialmedia-links{
+    margin-bottom: 163px;
+    width: 320px;
+}
+.sociallinks-div{
+    display: flex;
+}
+
+.sociallinks-div span i:hover{
+    border-radius: 40px;
+    background-color: black;
+}
+
+.main-imgdiv{
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    margin: 0px 40px;
+}
+
+.box{
+    padding: 20px;
+    font-size: 15px;
+    place-items: center;
+    text-align: center;
+    color: floralwhite;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.indoor-plantimg{
+    width: 300px;
+    border-radius: 3%;
+}
+
+.indoor-plantimg:hover{
+    opacity: 0.7;
+}
+
+.content:hover{
+    font-weight: 600;
+
+}
+
+.plant-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.pimg5{
+    background-image: url("./gardenmainimage.jpg");
+    min-height: 900px;
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.pimg5 h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin: 30px;
+}
+
+.margin-3{
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .head-section {
+        justify-content: space-evenly;
+    }
+    
+    .plant-img {
+        height: 100px;
+        width: 110px;
+    }
+    
+    .head-section h3 {
+        font-size: 21px;
+    }
+    
+    .head-section div {
+        width: 150px;
+    }
+
+    .plant-menulist ul li {
+        margin: 5px 0px !important;
+    }
+    
+    .plant-menulist ul li a {
+        font-size: 16px
+    }
+
+    .width-100{
+        width: 100px !important;
+    }
+
+    .caption-button{
+        margin:0px 200px;
+    }
+     
+    .garden-caption {
+        font-size: 18px;
+        letter-spacing: 5px;
+        top: 38%;
+        left: 20%;
+    }
+
+    .section-service{
+        padding:40px 0px;
+        }
+
+    .sectionservice-options{
+        flex-direction:column;
+    }
+    
+    .service{
+    margin:15px 3px;
+    }
+    
+    .fs-12{
+    font-size:35px !important;
+    }
+
+    .pimg2 h2 {
+        font-size: 35px;
+    margin:15px;
+    }
+
+    .topWeekPlants{
+        flex-direction:column !important;
+        }
+
+    .plants-card{
+        margin: 30px 0px;
+        width: 16rem;
+    }
+
+    .section{
+        padding: 50px 20px;
+    }
+
+    .pimg3{
+        height:1625px !important;
+    }
+
+    .pimg3 h2 {
+        font-size: 35px;
+        margin: 6px 0px;
+        padding: 20px;
+    }
+
+    .trendingWeekPlants{
+        flex-direction:column;
+    } 
+            
+    .plantitems-card{
+        margin: 15px 0px;
+    }  
+    
+    .gardenitems-sale{
+        flex-direction:column;
+    }
+
+    .garden-tools {
+        width: 94% !important;
+        margin: 24px 10px;
+        height: 214px;
+        padding: 12px;
+    }
+
+    .main-imgdiv{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        margin:0px;
+    }
+
+    .pimg5{
+        height: 2950px;
+        }
+        
+        footer {
+        margin-left:13px;
+        }
+        
+        .footer-section{
+        flex-direction:column;
+        }
+        
+        .socialmedia-links {
+            margin-bottom: 5px;
+        }
+        
+        .garden-links {
+            margin: 10px 24px;
+            width: 290px;
+        }
+        
+        .margin-3{
+        text-align:center;
+        margin-left: 3px !important;
+        }
+        
+        .sociallinks-div {
+            justify-content: center;
+        }
+}
+
+@media (min-width:768px) and (max-width:992px){
+    
+    .plant-img {
+        height: 100px;
+        width: 110px;
+    }
+    
+    .head-section h3 {
+        font-size: 21px;
+    }
+    
+    .head-section div {
+        width: 150px;
+    }
+
+    .plant-menulist ul li {
+        margin: 5px 0px !important;
+    }
+    
+    .plant-menulist ul li a {
+        font-size: 16px
+    }
+
+    .width-100{
+        width: 100px !important;
+    }
+
+    .caption-button{
+        margin:0px 200px;
+    }
+     
+    .garden-caption {
+        font-size: 18px;
+        letter-spacing: 5px;
+        top: 38%;
+        left: 20%;
+    }
+
+    .section-service{
+        padding:40px 0px;
+        }
+
+    .sectionservice-options{
+        flex-direction:column;
+    }
+    
+    .service{
+    margin:15px 3px;
+    }
+    
+    .fs-12{
+    font-size:35px !important;
+    }
+
+    .pimg2 h2 {
+        font-size: 35px;
+    margin:15px;
+    }
+
+    .topWeekPlants{
+        flex-direction:column !important;
+        }
+
+    .plants-card{
+        margin: 30px 0px;
+        width: 20rem;
+    }
+
+    .section{
+        padding: 50px 20px;
+    }
+
+    .pimg3{
+        height:1625px !important;
+    }
+
+    .pimg3 h2 {
+        font-size: 35px;
+        margin: 6px 0px;
+        padding: 20px;
+    }
+
+    .trendingWeekPlants{
+        flex-direction:column;
+    } 
+            
+    .plantitems-card{
+        margin: 15px 0px;
+        width: 18rem;
+    }  
+    
+    .gardenitems-sale{
+        flex-direction:column;
+    }
+
+    .garden-tools {
+        width: 94% !important;
+        margin: 24px 10px;
+        height: 214px;
+        padding: 12px;
+    }
+
+    .main-imgdiv{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        margin:0px;
+    }
+
+    .pimg5{
+        height: 2950px;
+        }
+        
+        footer {
+        margin-left:110px;
+        }
+        
+        .footer-section{
+        flex-direction:column;
+        }
+        
+        .socialmedia-links {
+            margin-bottom: 5px;
+        }
+        
+        .garden-links {
+            margin: 10px 24px;
+            width: 530px;
+        }
+        
+        .margin-3{
+        text-align:center;
+        margin-left: 3px !important;
+        }
+        
+        .sociallinks-div {
+            justify-content: center;
+        }
+}
+
+@media (min-width:992px) and (max-width:1200px){
+    
+    .plant-img {
+        height: 100px;
+        width: 110px;
+    }
+    
+    .head-section h3 {
+        font-size: 21px;
+    }
+    
+    .head-section div {
+        width: 150px;
+    }
+
+    .plant-menulist ul li {
+        margin: 5px 18px !important
+    }
+    
+    .plant-menulist ul li a {
+        font-size: 16px
+    }
+
+    .width-100{
+        width: 100px !important;
+    }
+
+    .caption-button{
+        margin: 0px 350px;
+    }
+     
+    .garden-caption {
+        font-size: 18px;
+        letter-spacing: 5px;
+        top: 38%;
+        left: 20%;
+    }
+
+    .section-service{
+        padding:40px 0px;
+        }
+
+        .sectionservice-options{
+            flex-wrap: wrap;
+        }
+
+    
+    .service{
+    margin:15px 3px;
+    }
+    
+    .fs-12{
+    font-size:35px !important;
+    }
+
+    .pimg2 h2 {
+        font-size: 35px;
+    margin:15px;
+    }
+
+    .topWeekPlants{
+        flex-wrap: wrap;
+        }
+
+    .plants-card{
+        margin: 30px 0px;
+        width: 18rem;
+    }
+
+    .section{
+        padding: 50px 20px;
+    }
+
+    .pimg3{
+        height: 1237px !important;
+    }
+
+    .pimg3 h2 {
+        font-size: 35px;
+        margin: 6px 0px;
+        padding: 20px;
+    }
+
+    .trendingWeekPlants{
+        flex-wrap: wrap;
+    } 
+            
+    .plantitems-card{
+        margin: 15px 0px;
+        width: 19rem;
+    }  
+
+    .garden-tools {
+        width: 94% !important;
+        margin: 24px 10px;
+        height: 270px;
+        padding: 12px;
+    }
+
+    .main-imgdiv{
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items:center;
+        margin:0px;
+    }
+
+    .pimg4{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .content{
+        width: 340px;
+    }
+
+    .pimg5{
+        height: 1630px;
+        }
+        
+        footer {
+        margin-left:110px;
+        }
+        
+        .footer-section{
+        flex-wrap: wrap;
+        }
+        
+        .socialmedia-links {
+            margin-bottom: 5px;
+        }
+        
+        .garden-links {
+            margin: 10px 24px;
+            width: 320px;
+        }
+        
+        .margin-3{
+        margin-left: 3px !important;
+        }
+        
+
+}
+
+@media (min-width:1201px) and (max-width:1400px){
+    
+    .plant-img {
+        height: 100px;
+        width: 110px;
+    }
+    
+    .head-section h3 {
+        font-size: 21px;
+    }
+    
+    .head-section div {
+        width: 150px;
+    }
+
+    .plant-menulist ul li {
+        margin: 5px 36px !important
+    }
+    
+    .plant-menulist ul li a {
+        font-size: 16px
+    }
+
+    .width-100{
+        width: 100px !important;
+    }
+
+    .caption-button{
+        margin: 0px 400px;
+        height: 300px;
+    }
+     
+    .garden-caption {
+        font-size: 18px;
+        letter-spacing: 5px;
+        top: 38%;
+        left: 20%;
+    }
+
+    .section-service{
+        padding:40px 0px;
+        }
+
+        .sectionservice-options{
+            flex-wrap: wrap;
+        }
+
+    
+    .service{
+    margin:15px 3px;
+    }
+    
+    .fs-12{
+    font-size:35px !important;
+    }
+
+    .pimg2 h2 {
+        font-size: 35px;
+    margin:15px;
+    }
+
+    .topWeekPlants{
+        flex-wrap: wrap;
+        }
+
+    .plants-card{
+        margin: 30px 0px;
+        width: 18rem;
+    }
+
+    .section{
+        padding: 50px 20px;
+    }
+
+    .pimg3{
+        height: 1237px !important;
+    }
+
+    .pimg3 h2 {
+        font-size: 35px;
+        margin: 6px 0px;
+        padding: 20px;
+    }
+
+    .trendingWeekPlants{
+        flex-wrap: wrap;
+    } 
+            
+    .plantitems-card{
+        margin: 15px 0px;
+        width: 19rem;
+    }  
+
+    .garden-tools {
+        width: 94% !important;
+        margin: 24px 10px;
+        height: 296px;
+        padding: 40px;
+    }
+
+    .main-imgdiv{
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items:center;
+        margin:0px;
+    }
+
+    .pimg4{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .content{
+        width: 340px;
+    }
+
+    .pimg5{
+        height: 1630px;
+        }
+        
+        footer {
+        margin-left:110px;
+        }
+        
+        .footer-section{
+        flex-wrap: wrap;
+        }
+        
+        .socialmedia-links {
+            margin-bottom: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .garden-links {
+            margin: 10px 24px;
+            width: 320px;
+        }
+        
+        .margin-3{
+        margin-left: 3px !important;
+        }
+        
+
+}
